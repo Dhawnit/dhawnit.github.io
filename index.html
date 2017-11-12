@@ -1,21 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>MY PROFILE</title>
-</head>
-<body bgcolor="orange">
-<div align="center" >
-<img src="IMAG5205.jpg" height="200" width="300"> <br/>
-<b>Name</b>: DHAWNIT KHURANA<br/>
-<b>Email Id</b>: <a href="mailto:dkhurana00@gmail.com"> dkhurana00@gmail.com </a> <br/>
-<b>Phone No</b>: <a href="tel:+919479067696">+91-9479067696 </a> <br/>
-<a href="https://www.facebook.com/dhawnit.khurana"><img src="images.png" height="30" width="30"></a><br/>
+  <head>
+    <meta charset='utf-8'>
 
-<ul type="circle"><b>PROJECTS</b>
-<li>Law and Order Automation</li>
-<li>Online Book Store</li>
-<li>Parking Lot Management System</li>
-</ul>
-</div> 
-</body>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700italic,800italic,800,700&subset=latin,cyrillic-ext,greek-ext,vietnamese,greek,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.content').headsmart()
+      })
+    </script>
+
+    <title>Project Description</title>
+  </head>
+
+  <body>
+
+    <div class="shell">
+
+      <header>
+        <h1>Semi Supervised Classification of Health Forum Messages</h1>
+      </header>
+  
+      <section id="main_content">
+        <!-- <div id="demo-1"> -->
+          <h2 class="title">Problem Statement</h2>
+          <!-- <div class="content"> -->
+            <!-- <h1>I'm a &lt;h1&gt; tag</h1>
+            <h2>I'm a &lt;h2&gt; tag</h2>
+            <h3>I'm a &lt;h3&gt; tag</h3>
+            <h4>I'm a &lt;h4&gt; tag</h4>
+            <h5>I'm a &lt;h5&gt; tag</h5> -->
+            <!-- Applying various approaches for categorizing healthcare forum messages into one of seven different categories, based on the message text. We investigated the performance of several standard text classification algorithms on this task. We also explored recently proposed convolution neural network architectures that have been demonstrated to be effective at classifying short texts. -->
+            Patients and caregivers often share their health-related concerns in community forums and discussion boards such as ehealthforum, medhelp, and patientslikeme. On such discussion forums, members post questions and other members respond with suggestions or answers to the leading question. This provides a rich environment for healthcare researchers to study question-answering challenges in healthcare. One of the important tasks towards automated question answering is to identify the type of questions being asked by the patients and their caregivers.So, the task at hand is to classify the health-forum messages into  categories using semi-supervised learning.The dataset contains 8000 training samples classified into one of the following seven categories - 
+</br></br>
+1)	Demographic (DEMO): Forums targeted towards specific demographic sub -groups characterized by age, gender, profession, ethnicity, etc.
+</br>
+2)	Disease (DISE): Forums related to a specific disease
+</br>
+3)	Treatment (TRMT): Forums related to a specific treatment or procedure
+</br>
+4)	Goal-oriented (GOAL): Forums related to achieving a health goal, such as weight management, exercise regimen, etc.
+</br>
+5)	Pregnancy (PREG): Forums related to pregnancy, including forums on difficulties with conception and concerns about mother and unborn child health during pregnancy
+</br>
+6)	Family support (FMLY): Forums related to issues of a caregiver (rather than a patient), such with support of an ill child or spouse.
+</br>
+7)	Socializing (SOCL): Forums related to socializing, including hobbies and recreational activities, rather than a specific health-related issue.
+</br>
+</br>
+Now we have to categorize the 3000 testing samples into above categories and test the accuracy of the model.
+
+          <!-- </div> -->
+        <!-- </div> --></br>
+        <div id="demo-2">
+          <h2 class="title">Github</h2>
+          <div class="content">
+            <!-- <h4>I'm a &lt;h4&gt; tag</h4>
+            <h5>I'm a &lt;h5&gt; tag</h5>
+            <h6></h6> -->
+            <a href="https://github.com/Dhawnit/Semi-Supervised-Classification-of-Health-Forum-Messages"> Github Repository</a>
+          </div>
+        </div>
+        <div id="demo-3">
+          <h2 class="title">Team Members</h2>
+          <div class="content">
+           	Aman Rai </br>aman.rai@students.iiit.ac.in </br></br>
+			Dhawnit Khurana</br>dhawni.khurana@students.iiit.ac.in </br></br>
+            Swapnil Gupta</br>gupta.swapnil@students.iiit.ac.in </br></br>
+           </br></br>
+          </div>
+          </div>
+      </section>
+    </div>
+  </body>
 </html>
